@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".Fragment.CancelledOrdersFragment">
+
+    <TextView
+        android:id="@+id/txtCancelledOrders"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cancelled Orders"
+        android:gravity="center"
+        android:textSize="@dimen/_18sdp"
+        android:fontFamily="@font/lexenddeca"
+        android:textColor="@color/black"
+        android:padding="@dimen/_16sdp"
+        android:textStyle="bold"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerViewCancelledOrders"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="8dp"/>
+
+</LinearLayout>

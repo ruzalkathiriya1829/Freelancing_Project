@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Background Map Image -->
+    <ImageView
+        android:id="@+id/imgBackground"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/mapbg" />
+
+    <!-- Transdparent Overlay -->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/transdparent_black" />
+
+    <!-- Search Bar -->
+    <LinearLayout
+        android:id="@+id/searchBar"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="20dp"
+        android:background="@drawable/search_bar_bg"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+        <ImageView
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:src="@drawable/search" />
+
+        <EditText
+            android:id="@+id/edtSearchLocation"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/white"
+            android:fontFamily="@font/lexenddeca"
+            android:hint="Set Your Location"
+            android:textColor="@color/black"
+            android:layout_marginLeft="@dimen/_5sdp"
+            android:textSize="@dimen/_16sdp" />
+
+        <ImageView
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:src="@drawable/mic" />
+    </LinearLayout>
+
+    <!-- Location Permission Dialog -->
+    <LinearLayout
+        android:id="@+id/locationDialog"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_160sdp"
+        android:layout_centerInParent="true"
+        android:layout_marginHorizontal="@dimen/_30sdp"
+        android:background="@drawable/dialog_bg"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Allow Us To Access Your Location ?"
+            android:textColor="@color/black"
+            android:fontFamily="@font/lexenddeca"
+            android:layout_marginVertical="@dimen/_10sdp"
+            android:textSize="@dimen/_14sdp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txtWhileUsing"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="While Using This App"
+            android:fontFamily="@font/lexenddeca"
+            android:textColor="@color/blue"
+            android:textSize="@dimen/_14sdp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txtOnlyThisTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/lexenddeca"
+            android:text="Only This Time"
+            android:textColor="@color/black"
+            android:layout_marginVertical="@dimen/_5sdp"
+            android:textSize="@dimen/_14sdp"
+            android:padding="5dp" />
+
+        <TextView
+            android:id="@+id/txtDontAllow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/lexenddeca"
+            android:text="Don't Allow"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_14sdp"
+            android:padding="5dp" />
+    </LinearLayout>
+
+    <!-- Continue Button -->
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnContinue"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="@dimen/_20sdp"
+        android:background="@drawable/button_bg"
+        android:fontFamily="@font/lexenddeca"
+        android:text="CONTINUE"
+        android:backgroundTint="@color/yellow"
+        android:textAllCaps="true"
+        android:textColor="@color/white"
+        android:textSize="@dimen/_14sdp"
+        android:textStyle="bold" />
+</RelativeLayout>

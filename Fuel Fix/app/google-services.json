@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1017695695566",
+    "firebase_url": "https://fuelfix-fdde5-default-rtdb.firebaseio.com",
+    "project_id": "fuelfix-fdde5",
+    "storage_bucket": "fuelfix-fdde5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1017695695566:android:41a0d5f539ea07e89a569f",
+        "android_client_info": {
+          "package_name": "com.example.fuelfix"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1017695695566-e32lrnead7heikb0gl00lskcmkkot492.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.fuelfix",
+            "certificate_hash": "3baad649e863fbf93afa5eeb2efd92532949d12d"
+          }
+        },
+        {
+          "client_id": "1017695695566-p1j4pf2hjd2018jbt6sqi1e1294ptd7k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCqH9-ibz-nEGCi8zzJrxLt7gwqg_k-WLQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1017695695566-5at38tnm8bknsa2eqqndp1ar55d35788.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

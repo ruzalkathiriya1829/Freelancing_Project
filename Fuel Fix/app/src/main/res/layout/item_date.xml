@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.AppCompatButton xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/btnDate"
+    android:layout_width="@dimen/_50sdp"
+    android:layout_height="@dimen/_70sdp"
+    android:background="@drawable/border_box_gray"
+    android:gravity="center"
+    android:textAllCaps="false"
+    android:layout_marginHorizontal="@dimen/_5sdp"
+    android:textColor="@color/black"
+    android:textSize="@dimen/_14sdp" />

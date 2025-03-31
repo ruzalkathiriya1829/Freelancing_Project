@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".Activity.LocationActivity">
+
+    <!-- Illustration Image -->
+    <ImageView
+        android:id="@+id/imgLocationIllustration"
+        android:layout_width="@dimen/_250sdp"
+        android:layout_height="@dimen/_200sdp"
+        android:src="@drawable/locationillustration"
+        android:contentDescription="Location Illustration"
+        android:layout_marginBottom="@dimen/_20sdp"/>
+
+    <!-- Title Text -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="We Don’t Have Your Location, Yet!"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_18sdp"
+        android:textStyle="bold"
+        android:fontFamily="@font/lexenddeca"
+        android:gravity="center"
+        android:layout_marginBottom="8dp"/>
+
+    <!-- Subtitle Text -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Set Your Location To Start Exploring"
+        android:textColor="@color/gray"
+        android:textSize="@dimen/_14sdp"
+        android:fontFamily="@font/lexenddeca"
+        android:gravity="center"
+        android:layout_marginBottom="24dp"/>
+
+    <!-- Enable Device Location Button -->
+    <Button
+        android:id="@+id/btnEnableLocation"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:text="Enable Device Location"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/yellow"
+        android:textSize="@dimen/_16sdp"
+        android:layout_marginBottom="10dp"/>
+
+    <!-- Enter Location Manually Button -->
+    <Button
+        android:id="@+id/btnEnterLocationManually"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:text="Enter Location Manually"
+        android:textColor="@color/black"
+        android:backgroundTint="@android:color/transparent"
+        android:background="@drawable/border_button"
+        android:textSize="@dimen/_16sdp"
+        android:layout_marginBottom="20dp"/>
+
+    <!-- Privacy Notice -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/_20sdp"
+        android:text="We only access your location while you're using the app to improve your experience"
+        android:textColor="@color/gray"
+        android:textSize="@dimen/_12sdp"
+        android:fontFamily="@font/lexenddeca"
+        android:gravity="center"/>
+
+</LinearLayout>

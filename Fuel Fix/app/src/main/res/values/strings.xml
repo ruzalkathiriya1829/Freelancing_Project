@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Fuel Fix</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="open">Open</string>
+    <string name="opening_time">Opens at \n<font color='#37ce01'>6 am</font></string>
+    <string name="closing_time">Closes at \n<font color='#37ce01'>12 am</font></string>
+</resources>
